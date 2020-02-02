@@ -2,7 +2,7 @@
 
 return [
     '__name' => 'lib-sms',
-    '__version' => '0.0.1',
+    '__version' => '0.0.2',
     '__git' => 'git@github.com:getmim/lib-sms.git',
     '__license' => 'MIT',
     '__author' => [
@@ -15,7 +15,11 @@ return [
     ],
     '__dependencies' => [
         'required' => [],
-        'optional' => []
+        'optional' => [
+            [
+                'lib-sms-zenziva' => NULL
+            ]
+        ]
     ],
     'autoload' => [
         'classes' => [
